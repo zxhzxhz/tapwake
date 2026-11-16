@@ -1,0 +1,6 @@
+id=tapwake
+name=AOD Single-Tap Wake
+version=v3.0
+versionCode=3
+author=pi-agent
+description=单击亮屏。把手势通道 KEY_GOTO(354) 转写为 KEY_WAKEUP(143) 回注 evdev；并关闭 MIUI 双击亮屏开关(system/gesture_wakeup=0)使触控 IC 深睡时保持 Single Tap 手势位，消除单击/双击消歧窗口，延迟降到 iPhone 级。零 fork、纯用户态、可逆。

@@ -1,0 +1,4 @@
+# 严禁 CRLF：shell 脚本换行被破坏会导致模块在 Android 上直接跑不起来
+* text=auto eol=lf
+*.sh   text eol=lf
+*.prop text eol=lf
